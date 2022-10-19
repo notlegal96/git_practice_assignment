@@ -1,9 +1,10 @@
-let a = 0;
-    for(let i=0; i>=num; i++){
-        if(num%i==0){
-            a++
+let a = 13;
+let count=0;
+    for(let i=1; i<=a; i++){
+        if(a%i==0){
+            count++;
         }
-    }if (a!=2){
+    }if (count==2){
         console.log("Yes");
         
     }else{
