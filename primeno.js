@@ -5,8 +5,8 @@ let count=0;
             count++;
         }
     }if (count==2){
-        console.log("Yes");
+        console.log(number,"Yes");
         
     }else{
-        console.log("No");
+        console.log(number,"No");
     } 
