@@ -1,7 +1,7 @@
-let a = 13;
+let number = 13;
 let count=0;
-    for(let i=1; i<=a; i++){
-        if(a%i==0){
+    for(let i=1; i<=number; i++){
+        if(number%i==0){
             count++;
         }
     }if (count==2){
